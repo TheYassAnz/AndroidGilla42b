@@ -1,0 +1,80 @@
+<resources>
+    <!-- Application name and logo -->
+    <string name="app_name">AndroidGilla42a</string>
+    <string name="logo_gilla">Logo GILLA</string>
+    <string name="title_gilla">GILLA</string>
+
+    <!-- Joomla 4 Super User Token -->
+    <string name="x_joomla_token">c2hhMjU2OjY3MzowNDU1MjYyN2M2YTMxYzEwZGI4NjhiZGYzOTIzODA1NzJlZDgyZWZhNDcyYmM3NGMzNDZhZDI0YjhkNjE3Mjkz</string>
+
+    <!-- Main menu -->
+    <string name="evenements">Evènements</string>
+    <string name="incidents">Incidents</string>
+
+    <!-- App bar menus -->
+    <string name="action_back">Retour</string>
+    <string name="action_add">Ajouter</string>
+    <string name="action_modify">Modifier</string>
+    <string name="action_delete">Supprimer</string>
+    <string name="action_save">Enregistrer</string>
+
+    <!-- Details view -->
+    <string name="evenement">Evènement</string>
+    <string name="incident">Incident</string>
+
+    <!-- Events table -->
+    <string name="title_label">Titre :</string>
+    <string name="description_label">Description :</string>
+    <string name="date_time_label">Date heure :</string>
+
+    <!-- Dialog boxes and messages -->
+    <string name="title_warning">Attention !</string>
+    <string name="question_confirm_delete">Confirmez-vous la suppression ?</string>
+    <string name="warning_save">Vous devez remplir tous les champs</string>
+
+    <!-- Strings related to Settings -->
+    <string name="title_activity_settings">Configuration</string>
+    <string name="action_settings">Configuration</string>
+    <string name="title_mes_preferences">Mes préférences</string>
+
+    <string name="pref_title_api">API utilisée</string>
+    <string-array name="pref_api_list_titles">
+        <item>Locale</item>
+        <item>Distante</item>
+    </string-array>
+    <string-array name="pref_api_list_values">
+        <item>"0"</item>
+        <item>"1"</item>
+    </string-array>
+    <string name="pref_title_api_url_loc">URL locale de l\'API</string>
+    <string name="pref_default_api_url_loc">joomla/api/index.php/v1</string>
+    <string name="pref_title_api_url_dist">URL distante de l\'API</string>
+    <string name="pref_default_api_url_dist">gilla42a.lla-sio.fr/api/index.php/v1</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_evenement">EvenementActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_evenement_edit">EvenementEditActivity</string>
+</resources>

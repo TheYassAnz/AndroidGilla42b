@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EvenementEditActivity">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        tools:ignore="MissingConstraints">
+
+        <!-- Saisie de la date/heure -->
+        <EditText
+            android:id="@+id/edtDate_time"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Date heure"
+            android:inputType="text"
+            android:padding="10dp"
+            android:layout_marginBottom="10dp"
+            android:singleLine="true">
+            <requestFocus />
+        </EditText>
+
+        <TextView
+            android:id="@+id/in_date"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dip"
+            android:padding="10dp"
+            android:layout_marginBottom="10dip"
+            android:textSize="17sp"
+            android:singleLine="true"/>
+
+        <TextView
+            android:id="@+id/in_time"
+            android:layout_marginRight="@+id/in_date"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dip"
+            android:padding="10dp"
+            android:layout_marginBottom="10dip"
+            android:textSize="17sp"
+            android:singleLine="true"/>
+
+        <!-- Saisie du titre -->
+        <EditText
+            android:id="@+id/edtTitle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Titre"
+            android:inputType="text"
+            android:padding="10dp"
+            android:layout_marginBottom="10dp"
+            android:singleLine="true">
+            <requestFocus />
+        </EditText>
+
+        <!-- Saisie de la description -->
+        <EditText
+            android:id="@+id/edtDescription"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Description"
+            android:inputType="text"
+            android:padding="10dp"
+            android:singleLine="true" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
